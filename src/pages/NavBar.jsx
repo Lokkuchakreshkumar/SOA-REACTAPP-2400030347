@@ -15,7 +15,7 @@ function NavBar() {
         </nav>
       </header>
       <main className="page-content">
-        <Routes>
+       < Routes>
           <Route path="/" element={<Home />} />
           <Route path="/registation" element={<UserRegistration />} />
           <Route path="/login" element={<UserLogin />} />
